@@ -109,7 +109,7 @@ public abstract class Bag {
      *
      * If there are no items in this Bag, return null.
      *
-     * @return
+     * @return contents
      */
     public String popItem(){
         if (this.numberOfContents == 0){
@@ -143,7 +143,7 @@ public abstract class Bag {
      * This method requires you to have created the private
      * instance variables mentioned above.
      *
-     * @return
+     * @return string
      */
     @Override
     public String toString() {
